@@ -9,7 +9,10 @@
   <strong>Description:</strong>
   <%= @product.description %>
 </p>
-
+<p>
+    <strong>Image</strong>
+  <%=image_tag(@product.image) %>
+</p>
 <p>
   <strong>Image url:</strong>
   <%= image_tag(@product.image_url) %>
